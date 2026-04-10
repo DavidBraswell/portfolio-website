@@ -10,10 +10,10 @@ export const PROJECTS = [
     tags: ["Javascript", "D3.js", "Node.js"],
   },
   {
-    name: "Not-ify",
+    name: "Auburn University Staff Website Redesign",
     images: ["staff-website.png"],
     description:
-      "A full-stack clone of the popular app Spotify.",
+      "A complete redesign and rehosting of an academic website belonging to an Auburn University computer science professor. The website was redesigned to be more modern, responsive, and accessible.",
     summary:
       "Redesigned and redeveloped Auburn University's staff website with a modern, responsive Next.js and Tailwind CSS UI, improving accessibility, performance, and engagement. Leveraged server-side rendering, caching strategies, and CI/CD deployment on Vercel for fast, seamless updates.",
     link: "",

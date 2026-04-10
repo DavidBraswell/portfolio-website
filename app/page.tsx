@@ -5,11 +5,9 @@ export default function Page() {
         About Me
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Hi, I'm David! I'm a graduate in computer science from Auburn University with a solid foundation in C++, 
+        HTML, CSS, and JavaScript, specializing in building interactive and accessible web applications. I'm
+        also interested in game dev, and tinker with passion projects in my free time.`}
       </p>
 
     </section>
