@@ -27,7 +27,8 @@ export function Navbar() {
               </Link>
             </h2>
           </div>
-          <div className="flex flex-row">
+                  <div className="flex flex-row">
+                      <img src="https://i.imgur.com/lmr0Xye.gif"></>
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
                 <Link
