@@ -27,10 +27,8 @@ export function Navbar() {
               </Link>
             </h2>
                   </div>
-                  <div style={{ backgroundImage: `url("https://i.imgur.com/lmr0Xye.gif")` }}>
-                      
-                  </div>
-          <div className="flex flex-row">
+                 
+                  <div className="flex flex-row" style={{ backgroundImage: `url("https://i.imgur.com/lmr0Xye.gif")` }}>
                       
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
