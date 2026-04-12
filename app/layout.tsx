@@ -52,7 +52,14 @@ export default function RootLayout({
         GeistMono.variable
       )}
         >
-        
+         <div style={{
+              backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")`, 
+              backgroundSize: 'cover',      
+              backgroundPosition: 'center',  
+              backgroundRepeat: 'no-repeat', // Prevents tiling
+              height: '100vh',               
+              width: '100%'                  
+          }}>
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
@@ -62,6 +69,7 @@ export default function RootLayout({
           <SpeedInsights />
         </main>
       </body>
+      </div>
     </html>
   )
 }
