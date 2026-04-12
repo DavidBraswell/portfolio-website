@@ -26,9 +26,12 @@ export function Navbar() {
                 David Braswell
               </Link>
             </h2>
-          </div>
-                  <div className="flex flex-row">
-                      <p style="background-image: url('https://i.imgur.com/lmr0Xye.gif');">
+                  </div>
+                  <div style={{ backgroundImage: `url("https://i.imgur.com/lmr0Xye.gif")` }}>
+                      
+                  </div>
+          <div className="flex flex-row">
+                      
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
                 <Link
