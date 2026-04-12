@@ -1,6 +1,7 @@
 export default function Page() {
   return (
-    <section>
+      <section>
+      <div style={{ backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")` }}>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         About Me
       </h1>
@@ -10,7 +11,7 @@ export default function Page() {
         also interested in game dev, and tinker with passion projects in my free time. I hope to make up for where I lack in formal experience
         with the projects I've worked on and experience I gained in the classroom.`}
       </p>
-
+       </div>
     </section>
   )
 }
