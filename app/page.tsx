@@ -1,7 +1,7 @@
 export default function Page() {
   return (
       <section>
-      <div style={{ backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")` }}>
+      <div style={{ backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")`, object-fit: fill }}>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
         About Me
       </h1>
