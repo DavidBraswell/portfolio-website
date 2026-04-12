@@ -52,7 +52,7 @@ function Project({ name, images, description, summary, link, tags }) {
       <h2 className="text-xl font-semibold">{name}</h2>
       
         <img
-          src={`/images/${images}`}
+          src={`app/images/${images}`}
           alt={`${name} number`}
           style={{
             maxWidth: "100%",
