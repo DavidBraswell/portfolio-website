@@ -50,20 +50,19 @@ function Project({ name, images, description, summary, link, tags }) {
   return (
     <div>
       <h2 className="text-xl font-semibold">{name}</h2>
-      {/*       Disabled until images get fixed
-      {images.map((img, index) => (
+      
         <img
-          src={`/images/${img}`}
-          alt={`${name} number ${index}`}
+          src={`/images/${images}`}
+          alt={`${name} number`}
           style={{
             maxWidth: "100%",
             height: "auto",
             borderRadius: "0.5rem",
             marginTop: "1rem",
           }}
-          key={`${name} number ${index}`}
+          key={`${name} number`}
         />
-      ))} */}
+      
 
       <p className="text-neutral-600 dark:text-neutral-400 mt-2">
         {description}
