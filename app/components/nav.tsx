@@ -12,7 +12,7 @@ const navItems = {
 export function Navbar() {
   return (
     <aside className="mb-16 tracking-tight">
-          <div className="lg:sticky lg:top-20" style={{ backgroundImage: `url("https://i.imgur.com/lmr0Xye.gif")` }}>
+          <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row justify-between items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative"
           id="nav"
