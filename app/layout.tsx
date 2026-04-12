@@ -44,32 +44,41 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
     return (
-    <html
-      lang="en"
-      className={cx(
-        'text-black bg-white dark:text-white dark:bg-black',
-        GeistSans.variable,
-        GeistMono.variable
-      )}
-        >
-         <div style={{
-              backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")`, 
-              backgroundSize: 'contain',      
-              backgroundPosition: 'center',  
-              backgroundRepeat: 'no-repeat', // Prevents tiling
-              height: '55vh',               
-              width: '100%'                  
-          }}>
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+<html
+  lang="en"
+  className={cx(
+    'text-black bg-white dark:text-white dark:bg-black',
+    GeistSans.variable,
+    GeistMono.variable
+  )}
+>
+  <body className="antialiased">
+    <div className="flex min-h-screen">
+
+      {/* LEFT SIDE ANIMATION */}
+      <div
+        className="w-1/3 hidden md:block"
+        style={{
+          backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      />
+
+      {/* RIGHT SIDE CONTENT */}
+      <main className="flex-1 max-w-xl mx-4 mt-8 lg:mx-auto">
+        <div className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
           <Footer />
           <Analytics />
           <SpeedInsights />
-        </main>
-      </body>
-      </div>
-    </html>
+        </div>
+      </main>
+
+    </div>
+  </body>
+</html>
   )
 }
