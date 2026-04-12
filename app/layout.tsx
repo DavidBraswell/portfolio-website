@@ -54,10 +54,10 @@ export default function RootLayout({
         >
          <div style={{
               backgroundImage: `url("https://i.imgur.com/Aq9ph83.gif")`, 
-              backgroundSize: 'cover',      
+              backgroundSize: 'contain',      
               backgroundPosition: 'center',  
               backgroundRepeat: 'no-repeat', // Prevents tiling
-              height: '100vh',               
+              height: '50vh',               
               width: '100%'                  
           }}>
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
