@@ -6,7 +6,7 @@ export default function Page() {
       </h1>
       <p className="mb-4">
         {`Hi, I'm David! I'm a graduate in computer science from Auburn University with a solid foundation in C++, 
-        HTML, CSS, and JavaScript, specializing in building interactive and accessible web applications. I'm
+        Node.js, HTML/CSS, and Express.js. I specialize in building interactive and accessible web applications. I'm
         also interested in game dev, and tinker with passion projects in my free time.`}
       </p>
 
