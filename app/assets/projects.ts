@@ -13,9 +13,9 @@ export const PROJECTS = [
     name: "CSFloat Bargain Bot",
     images: ["screen1.png"],
     description: "CSFloat is a platform where users list in game items for real life currency. This bot automatically makes offers on new listings at fair prices with the intention of reselling the item for a project margin of 4-6%.",
-    summary: "This bot tested my knowledge of API calls, asynchronous JavaScript programming, and CSS",
+    summary: "The user can configure a number of settings and rules for the bot to follow, and it automatically scans new listings and sends offers to those matching the defined criteria.",
     link: "",
-    tags: ["JavaScript", "CSS", "Axios", "Express.js"]
+    tags: ["Express.js", "Axios", "Node.js", "CSS"]
   },
   {
     name: "Auburn University Staff Website Redesign",
