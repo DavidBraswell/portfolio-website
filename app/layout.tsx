@@ -67,7 +67,7 @@ export default function RootLayout({
       />
 
       {/* RIGHT SIDE CONTENT */}
-      <main className="flex-1 max-w-xl mx-4 mt-8 lg:mx-auto">
+      <main className="flex-1 max-w-xl mx-1 mt-8 lg:mx-auto">
         <div className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
