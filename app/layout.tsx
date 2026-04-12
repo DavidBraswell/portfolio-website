@@ -57,7 +57,7 @@ export default function RootLayout({
               backgroundSize: 'contain',      
               backgroundPosition: 'center',  
               backgroundRepeat: 'no-repeat', // Prevents tiling
-              height: '50vh',               
+              height: '55vh',               
               width: '100%'                  
           }}>
       <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
