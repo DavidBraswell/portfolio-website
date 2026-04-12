@@ -50,7 +50,7 @@ function Project({ name, images, description, summary, link, tags }) {
   return (
     <div>
       <h2 className="text-xl font-semibold">{name}</h2>
-      { name =="CSFloat Bargain Bot" ? <img src="images/screen1.png" style={{maxWidth: "100%",
+      { name =="CSFloat Bargain Bot" ? <img src="https://i.imgur.com/eKXI253.png" style={{maxWidth: "100%",
             height: "auto",
             borderRadius: "0.5rem",
             marginTop: "1rem",}}/> : <></> }
