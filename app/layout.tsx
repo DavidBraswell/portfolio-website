@@ -12,8 +12,8 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfolio-blog-starter.vercel.app"),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'david braswell\'s portfolio',
+    template: '',
   },
   description: 'This is my portfolio.',
   openGraph: {
