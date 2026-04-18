@@ -1,25 +1,19 @@
-import { EXPERIENCE } from "app/assets/experience";
-import { PROJECTS } from "app/assets/projects";
-import WorkItem from "app/components/work-item";
 
+import { Document, Page, pdfjs } from "react-pdf";
 export const metadata = {
   title: "Resume",
   description: "Preview my resume",
 };
 
-export default function Page() {
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+
+export default function ResumeViewer() {
   return (
-    <section>
-      <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
-        Resume
-      </h1>
-<iframe
-  src="/DavidBraswellResume.pdf"
-  width="100%"
-  height="800px"
-  style={{ border: "none" }}
-/>
-    </section>
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <Document file="/DavidBraswellResume.pdf">
+        <Page pageNumber={1} />
+      </Document>
+    </div>
   );
 }
 
