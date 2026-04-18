@@ -1,4 +1,4 @@
-
+"use client";
 import { Document, Page, pdfjs } from "react-pdf";
 export const metadata = {
   title: "Resume",
