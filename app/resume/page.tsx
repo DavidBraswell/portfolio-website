@@ -10,10 +10,13 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 export default function ResumeViewer() {
   return (
     <section>
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      <Document file="/DavidBraswellResume.pdf">
-        <Page pageNumber={1} />
-      </Document>
+      <div>
+      <iframe
+        src="/DavidBraswellResume.pdf#toolbar=0&navpanes=0&scrollbar=0"
+        width="100%"
+        height="800px"
+        style={{ border: "none" }}
+        />
     </div>
     </section>
   );
