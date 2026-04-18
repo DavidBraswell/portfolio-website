@@ -1,4 +1,4 @@
-"use client";
+
 import { Document, Page, pdfjs } from "react-pdf";
 export const metadata = {
   title: "Resume",
@@ -9,11 +9,13 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 export default function ResumeViewer() {
   return (
+    <section>
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Document file="/DavidBraswellResume.pdf">
         <Page pageNumber={1} />
       </Document>
     </div>
+    </section>
   );
 }
 
