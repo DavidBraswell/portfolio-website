@@ -13,8 +13,12 @@ export default function Page() {
       <h1 className="mb-4 text-2xl font-semibold tracking-tighter">
         Resume
       </h1>
-      <iframe src="../public/DavidBraswellResume.pdf">
-      </iframe>
+<iframe
+  src="/DavidBraswellResume.pdf"
+  width="100%"
+  height="800px"
+  style={{ border: "none" }}
+/>
     </section>
   );
 }
