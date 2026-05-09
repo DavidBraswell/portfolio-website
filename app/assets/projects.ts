@@ -18,13 +18,13 @@ export const PROJECTS = [
     tags: ["Express.js", "Axios", "Node.js", "CSS"]
   },
   {
-    name: "Auburn University Staff Website Redesign",
-    images: ["staff-website.png"],
+    name: "Field Equipment Tracker",
+    images: [],
     description:
-      "A complete redesign and rehosting of an academic website belonging to an Auburn University computer science professor. The website was redesigned to be more modern, responsive, and accessible.",
+      "A dashboard for managing inventory. Users can add, delete, and assign equipment to job site locations.",
     summary:
-      "Redesigned and redeveloped Auburn University's staff website with a modern, responsive Next.js and Tailwind CSS UI, improving accessibility, performance, and engagement. Leveraged server-side rendering, caching strategies, and CI/CD deployment on Vercel for fast, seamless updates.",
-    link: "",
-    tags: ["React", "Next.js", "Tailwind CSS", "Vercel"],
+      "Full stack project utilizing the PERN (Postgres, Express, React, Node.js) stack for hands on experience with Postgres and relational databases. I wanted to create a tool that could reasonably be used by a company to keep track of their equipment.",
+    link: "https://github.com/DavidBraswell/field-equipment-tracker",
+    tags: ["React", "Vite", "Tailwind CSS", "Postgres"],
   }
 ];
