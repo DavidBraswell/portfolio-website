@@ -5,7 +5,7 @@ export const PROJECTS = [
     description:
       "A full stack dashboard with useful tools for managing field operations.",
     summary:
-      "Full stack project utilizing the PERN (Postgres, Express, React, Node.js) stack for hands on experience with Postgres and relational databases. I wanted to create a tool that could reasonably be used by a company to assist with field work. Detailed info for how I deployed it is availabe on the GitHub Repository.",
+      "Full stack project utilizing the PERN (Postgres, Express, React, Node.js) stack for hands on experience with Postgres and relational databases. I wanted to create a tool that could reasonably be used by a company to assist with field work. Detailed info for how I deployed it and preview images are availabe on the GitHub Repository.",
     link: "https://github.com/DavidBraswell/field-ops-dashboard",
     tags: ["React", "Vite", "Postgres", "Express.js"],
   },
